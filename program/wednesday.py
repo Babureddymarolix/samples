@@ -39,3 +39,15 @@ print(a*4)
 
 s=" learning python is very easy"
 print[1:8:1]
+
+
+my_dic={"name":"babu","empid":"01691","domine":"python"}
+for item in my_dic.items():
+   print(item)
+
+num=int(input("enter num:"))
+counter=0
+while counter<=10:
+   ansr=num*counter
+print(num,"x","counter,"_",num)
+      counter=counter      
