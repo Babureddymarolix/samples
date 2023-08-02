@@ -50,4 +50,29 @@ counter=0
 while counter<=10:
    ansr=num*counter
 print(num,"x","counter,"_",num)
-      counter=counter      
+      counter=counter 
+
+domine="python"
+print("p"in domine)
+
+s=input("enter string:")
+sub=input("enter substring:")
+if sub in s:
+  print("string is found")
+else:
+   print("string not found")
+
+string 1=input("enter string 1:")
+string 2=input("enter string 2:")
+if:
+  print("both strings are equal")
+else:
+   print("both strings are not equal")
+
+ 
+
+
+
+
+
+
