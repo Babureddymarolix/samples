@@ -1,5 +1,5 @@
 string = input("enter string:")
-if(string.end switch("gmail.com")):
+if(string.endswitch("gmail.com")):
     print("user can signin")
 else:
     print("gmail is not verified")
@@ -11,7 +11,7 @@ if(string.endswitch("www.")):
 else:
     print("website not found")
 
-s="babu 06191"
+s="babu06191"
 print(s.isalnum())
 
 s2="Babu"
