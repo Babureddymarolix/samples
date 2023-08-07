@@ -88,6 +88,105 @@ if __name__ == "__main__":
     print("Modified string:", modified_string)
 
 
+
+def sum_of_integers_in_string(input_string):
+    numbers = []
+    current_number = ""
+    for char in input_string:
+        if char.isdigit():
+            current_number += char
+        elif current_number:
+            numbers.append(int(current_number))
+            current_number = ""
+    if current_number:
+        numbers.append(int(current_number))
+
+    return sum(numbers)
+
+if __name__ == "__main__":
+    user_input = input("Enter a string: ")
+
+    total_sum = sum_of_integers_in_string(user_input)
+    print("Sum of integers in the string:", total_sum)
+
+
+
+def remove_repeated_characters(input_string):
+    result_string = ""
+    for char in input_string:
+        if char not in result_string:
+            result_string += char
+    return result_string
+
+if __name__ == "__main__":
+    user_input = input("Enter a string: ")
+
+    modified_string = remove_repeated_characters(user_input)
+    print("Original string:", user_input)
+    print("Modified string:", modified_string)
+
+
+
+
+def count_occurrences(input_string, character_to_count):
+    count = 0
+    for char in input_string:
+        if char == character_to_count:
+            count += 1
+    return count
+
+if __name__ == "__main__":
+    user_input = input("Enter a string: ")
+    char_to_count = input("Enter the character to count: ")
+
+    occurrences = count_occurrences(user_input, char_to_count)
+    print(f"The character '{char_to_count}' appears {occurrences} times in the string.")
+
+
+
+
+def are_anagrams(str1, str2):
+    return sorted(str1) == sorted(str2)
+
+if __name__ == "__main__":
+    user_input1 = input("Enter the first string: ")
+    user_input2 = input("Enter the second string: ")
+
+    if are_anagrams(user_input1, user_input2):
+        print("The strings are anagrams.")
+    else:
+        print("The strings are not anagrams.")
+
+
+
+
+
+def custom_sort(input_string):
+    alphabets = []
+    numerics = []
+
+    for char in input_string:
+        if char.isalpha():
+            alphabets.append(char)
+        elif char.isdigit():
+            numerics.append(char)
+
+    sorted_string = ''.join(sorted(alphabets) + sorted(numerics))
+    return sorted_string
+
+if __name__ == "__main__":
+    user_input = input("Enter a string: ")
+    sorted_string = custom_sort(user_input)
+    print("Sorted string:", sorted_string)
+
+
+
+
+
+
+
+
+
     
 
 
