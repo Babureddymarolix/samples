@@ -46,4 +46,11 @@ for i in dic1.values():
       remove_key=input("enetr removed key")
       d.pop(remove_key)
       print(d)
+
+
+d1={'a':100,'b':200}
+d2={'x':300,'y':200}
+d=d1.copy()
+d.update(d2)
+print(d)      
    
