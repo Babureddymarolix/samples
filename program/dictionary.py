@@ -58,7 +58,10 @@ print(d)
 num={'physics':80,'maths':90,'chemistry':86}
 print(list(num[3]))
    
-
+dict1={'a':10,'b':20,'c':30}
+dict2={'b':5,'c':15,'d':25}
+combined=combine_dictionaries(dict1,dict2)
+print(combined)
 
 
 
