@@ -25,3 +25,25 @@ def is_key_present(x):
       is_key_present(5)
       is_key_present(9)    
      
+
+dic1={'data1':10,'data2':20,'data3':30}
+print(sum(dic1.values()))     
+
+dic1={'data1':10,'data2':20,'data3':30}
+sum=0
+for i in dic1.values():
+   sum=sum+i
+   print(sum)
+   print()
+
+
+   d={}
+   for k in range(0,5):
+      key=input("enter keys:")
+      value=input("enter values:")
+      d[key]=value
+      print(d)
+      remove_key=input("enetr removed key")
+      d.pop(remove_key)
+      print(d)
+   
