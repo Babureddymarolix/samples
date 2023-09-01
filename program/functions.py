@@ -15,5 +15,33 @@ unique_list=[]
 for i in list:
     if i not in unique_list:
         unique_list.append(i)
-print(unique_list)
-        
+
+
+
+def check(str):
+    alphabet="abcdefghijklmnopqrstuvwxyz"
+    for char in alphabet:
+        if char not in str.lower():
+            return False
+        str=input("enter the sentence")
+        if(check(str)==true):
+            print("the entered  sentence is pangram")
+        else:
+            print("the entered sentence is not pargram")  
+
+
+
+def values():
+    l=list()
+    for i in range(1,10):
+        l.append(i**2)
+        print(l)
+        values()  
+
+numbers=[8,2,3,0,7]
+def sum(numbers):
+    total=0
+    for x in numbers:
+        total +=x
+        return total
+    print(sum(numbers))                       
