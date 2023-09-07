@@ -25,5 +25,7 @@ s=lambda n:n*n
 print(s(3.2))
 
 
-print(finding_biggest_value(10,30))
+
 print(finding_biggest_value(900,100))
+print(value)
+
