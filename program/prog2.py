@@ -20,3 +20,5 @@ for _ in range(n):
 print_all_employee_details()
 
 
+
+
