@@ -9,7 +9,7 @@ def employee_details():
     else:
       d[emp_domain]=emp_age
     print("Employee details:")
-    print("*****************")
+    
     for domain, name in d.items():
         print("Domain:", domain)
         print("Employee Names:", emp_age)
