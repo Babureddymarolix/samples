@@ -15,6 +15,6 @@ def employee_details():
     print("*****************")
     for domain, names in employee_dict.items():
         print("Domain:", domain)
-        print("Employee Names:", ", ".join(names))
+        print("Employee Names:", ", ".capitalize join(names))
 
 employee_details()
