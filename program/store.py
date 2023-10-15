@@ -38,15 +38,15 @@ while True:
 
 
 
-# Initialize your budget
+
 budget = 100000
 
-# Prices of the appliances
+
 washing_machine_price = 30000
 fridge_price = 40000
 cooler_price = 20000
 
-# Check if you can afford each appliance
+
 if budget >= washing_machine_price:
     print("You can buy a washing machine.")
     budget -= washing_machine_price
