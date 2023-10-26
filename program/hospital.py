@@ -42,3 +42,25 @@ if found_patient:
  
 else:
     print(f"No patient found with ID {search_id}")
+
+
+
+
+def delete_patient_by_id(patients, delete_id):
+    for patient in patients:
+        if patient.get('id') == delete_id:
+            patients.remove(patient)
+            return True  
+    return False 
+
+patient1 = {'id': 1, 'name': 'John', 'age': 30, 'gender': 'Male', 'address': '123 Main St', 'phone': '555-1234'}
+patient2 = {'id': 2, 'name': 'Alice', 'age': 25, 'gender': 'Female', 'address': '456 Elm St', 'phone': '555-5678'}
+patient3 = {'id': 3, 'name': 'Bob', 'age': 40, 'gender': 'Male', 'address': '789 Oak St', 'phone': '555-9012'}
+
+patient_list = [patient1, patient2, patient3]
+
+delete_id = 2 
+if delete_patient_by_id(patient_list, delete_id):
+    print(f"Patient with ID {delete_id} has been deleted.")
+else:
+    print(f"No patient found with ID {delete_id}. Nothing was deleted.")
