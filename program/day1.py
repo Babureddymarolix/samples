@@ -28,3 +28,9 @@ print(remove_vowels("hello world"))
 mylist=["1","2","3","4","1","1"]
 s=list(dict.fromkeys(mylist))
 print(s)
+
+
+
+colour=["red","black","green","white","blue","red"]
+colour.pop(5)
+print(colour)
