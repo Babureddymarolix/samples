@@ -21,3 +21,10 @@ def remove_vowels(string):
          result+=char
     return result
 print(remove_vowels("hello world"))
+
+
+
+
+mylist=["1","2","3","4","1","1"]
+s=list(dict.fromkeys(mylist))
+print(s)
