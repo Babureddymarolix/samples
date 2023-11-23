@@ -31,4 +31,27 @@ result=[1,2,3,4,]
 for i in list1:
     if i not in result:
      result.append(i)
-print(result)
+print(result)  
+
+
+
+str=input("enter string")
+vowel_string="aeiouAEIOU"
+print("input string",str)
+for char in str:
+    if char in vowel_string:
+        str=str.replace(char,"")
+    print("output string without vowels",str)
+    
+
+
+class name(object):
+    def delvowels(self,s):
+        s=s.replace("a","")
+        s=s.replace("e","")
+        s=s.replace("i","")
+        s=s.replace("o","")
+        s=s.replace("u","")
+        return s
+clr=name()
+print(clr.delvowels(input ("enter string:")))
