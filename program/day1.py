@@ -33,4 +33,4 @@ print(s)
 
 colour=["red","black","green","white","blue","red"]
 colour.pop(5)
-print(colour)
+print(colour) 
