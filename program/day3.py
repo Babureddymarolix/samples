@@ -6,4 +6,4 @@ print(lst)
 
 lst=["1","2","1","3","2","1"]
 s=list(dict.fromkeys(lst))
-print(s)
+print(s)   
