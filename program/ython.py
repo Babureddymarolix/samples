@@ -15,8 +15,25 @@ count=0
 if num>1:
     for i in range (1,num+1):
         if(num%i) ==0:
+       
          count=count+1
     if count==2:
         print("number is prime")
     else:
         print("number is not prime")
+    
+factorial=1
+num=8
+if num<0:
+   print("factorial does not exist for negative numbers")
+elif num==0:
+   print("the factorial of 0 is 1")
+else:
+   for i in range(1,num+1):
+      factorail=factorial*1
+print("the factorial of ",num,"is",factorial)
+
+
+
+
+
