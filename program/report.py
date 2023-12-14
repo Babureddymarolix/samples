@@ -1,5 +1,0 @@
-city=input("input the city name")
-print(city)
-print("displaying weather report for:"+city)
-url="http://wttr.in/{}">format(city)
-print(city)
