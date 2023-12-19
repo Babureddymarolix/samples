@@ -8,3 +8,4 @@ class name (object):
         return s
         clr=name()
     print(clr.delvowels(input("enter string:")))
+    
