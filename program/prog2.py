@@ -15,7 +15,7 @@ def print_all_employee_details():
             print(f"{key}: {value}")
         print()
 n = int(input("Enter the number of employees: "))
-for _ in range(n):
+for _ in range(n):                                        
     add_employee()
 print_all_employee_details()
 
