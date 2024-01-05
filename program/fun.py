@@ -1,18 +1,10 @@
-ch=input("please enter your own character:")
-if (ch>='0' and ch<='9'):
-    print("the given character",ch,"is a digit")
-else:
-    print("the given character",ch,"is not a digit")
-
-
-str=input("enter a input:")
-vowels=['a','e','i','o','u','A','E','I','O','u']
-if str in vowels:
-    print("the given char is vowels")
-else:
-    print("the given char is not vowels")
-
-
+num1=10
+num2=20
+print("the value of num1 beforeswapping:",num1)
+print("the value of num2 before swapping:",num2)
+temp=num1
+num1=num2
+num2=temp
 
 
 
