@@ -43,6 +43,12 @@ for i in range(2,13):
     num1=num2 
     num2=sum
 
+arr=[1,2,3,4,5]
+print(sum)
+print(arr)
+
+
+
 
  
  
