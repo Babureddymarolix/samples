@@ -6,18 +6,29 @@ temp=num1
 num1=num2
 num2=temp
 
-
-
-num=6
+num=5
 count=0
 if num>1:
-    for i in range (1,num+1):
+    for i in range(1,num+1):
         if (num%i)==0:
-           count=count+1
+            count=count+1
 if count==2:
-    print("number is prime")
+    print(" number is prime")
 else:
-    print("number is not prime")
+    print(" number is not prime")
+
+
+
+factorial=1
+num=6
+if num<0:
+    print("factorial doesnot exist for negative numbers")
+elif num==0:
+    print("the factorial of 0 is 1")
+else:
+    for i in range (1,num+1):
+        factorial=factorial*i
+        print("the factorial of ",num,"is",factorial)
 
 
 
